@@ -1,0 +1,6 @@
+hadoop jar Lab1MapReduceSample.jar FriendList /user/root/input/temperatureSample.txt /output/temperatureOutput
+
+This does not include the commands needed to upload the files to HDFS.
+Those would be:
+
+hadoop fs -put temperatureSample.txt input

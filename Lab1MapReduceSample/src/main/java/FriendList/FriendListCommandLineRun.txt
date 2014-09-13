@@ -1,0 +1,2 @@
+ hadoop jar FriendList.jar FriendList.FriendList /user/root/input/friendListSample.txt /user/root/output/friendListOutput
+
