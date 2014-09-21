@@ -1,0 +1,2 @@
+hadoop jar Lab2Serialization-1.0-SNAPSHOT.jar ProjectHours.SprintDriver /user/root/input/hoursSple.txt /user/root/output/hoursOutput
+

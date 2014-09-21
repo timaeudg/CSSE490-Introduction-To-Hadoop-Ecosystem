@@ -1,0 +1,1 @@
+hadoop jar Lab2Serialization.jar ClassSample.CountDriver /user/root/input/nameSample.txt /user/root/output/nameSampleOutput
