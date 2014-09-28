@@ -1,0 +1,24 @@
+package ProjectHours;
+
+import java.io.IOException;
+
+import org.apache.hadoop.io.LongWritable;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Mapper;
+
+public class JoinWorkMapper extends Mapper<LongWritable, Text, IntPair, Text> {
+
+	@Override
+	protected void map(LongWritable key, Text value,
+			Context context)
+			throws IOException, InterruptedException {
+		String[] values = value.toString().split(",");
+		String name = values[0] + " " + values[1];
+		int sprint = Integer.parseInt(values[2]);
+		
+		IntPair pair = new IntPair(sprint, 100);
+		
+		context.write(pair, new Text(name));
+	}
+
+}

@@ -1,0 +1,1 @@
+hadoop jar Lab3AdvancedMapReduce-0.0.1-SNAPSHOT.jar CustomInputFormat.CustomWordCountDriver /user/root/input/searchDir/ /user/root/output/countingOutput/ Mary
