@@ -33,6 +33,9 @@ public class IntPair implements WritableComparable<IntPair> {
 	}
 	
 	private void set(IntWritable first, IntWritable second) {
+		if (first == null || second == null) {
+			throw new IllegalArgumentException("IntPair got at least one null");
+		}
 		this.first = first;
 		this.second = second;
 	}
@@ -48,11 +51,28 @@ public class IntPair implements WritableComparable<IntPair> {
 	}
 
 	public int compareTo(IntPair arg0) {
-		int cmp = first.compareTo(arg0.second);
+		int cmp = first.compareTo(arg0.first);
 		if (cmp != 0) {
 			return cmp;
 		}
 		return second.compareTo(arg0.second);
+	}
+	
+	@Override
+	public int hashCode() {
+		return this.first.get()*this.second.get();
+		
+	}
+	
+	@Override
+	public boolean equals(Object obj) {
+		IntPair other = null;
+		if (obj instanceof IntPair) {
+			other = (IntPair) obj;
+			return other.first.equals(this.first) && other.second.equals(this.second);
+		} else {
+			return false;
+		}
 	}
 
 }

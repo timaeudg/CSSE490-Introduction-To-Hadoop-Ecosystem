@@ -7,7 +7,11 @@ public class KeyPartitioner extends Partitioner<IntPair, Text> {
 
 	@Override
 	public int getPartition(IntPair arg0, Text arg1, int arg2) {
-		return (arg0.getFirst().hashCode() & Integer.MAX_VALUE) % arg2;
+		try {
+		return (arg0.getFirst().get() & Integer.MAX_VALUE) % arg2;
+		} catch (Exception e) {
+			throw new IllegalArgumentException("Partitioner Threw an exception");
+		}
 	}
 
 }

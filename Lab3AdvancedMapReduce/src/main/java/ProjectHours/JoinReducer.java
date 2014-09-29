@@ -15,9 +15,9 @@ public class JoinReducer extends Reducer<IntPair, Text, IntWritable, Text> {
 			throws IOException, InterruptedException {
 		Iterator<Text> iter = arg1.iterator();
 		System.out.println("in reducer");
+		Text sprint = new Text(iter.next());
+		System.out.println("sprint: " + sprint.toString());
 		while(iter.hasNext()) {
-			Text sprint = new Text(iter.next());
-			System.out.println("sprint: " + sprint.toString());
 			Text work = iter.next();
 			System.out.println("work: " + work.toString());
 			Text outValue = new Text(sprint.toString() + "\t" + work.toString());
