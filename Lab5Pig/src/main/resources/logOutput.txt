@@ -1,0 +1,50 @@
+mmw	0.33333334	0.33333334	2014	10	5	11
+hallq	0.16666667		2014	10	5	11
+wwjtd	0.5		2014	10	5	11
+filmchat	1.0		2014	10	5	11
+markshea	0.1904762		2014	10	5	11
+irreverin	1.0		2014	10	5	11
+tonyjones	0.6785714		2014	10	5	11
+euangelion	0.625		2014	10	5	11
+frankviola	0.25	0.25	2014	10	5	11
+jesuscreed	0.6923077		2014	10	5	11
+thecrescat	0.16666667		2014	10	5	11
+whitehindu	1.0		2014	10	5	11
+badcatholic	0.17391305		2014	10	5	11
+danpeterson	0.25		2014	10	5	11
+getreligion	0.3888889	0.055555556	2014	10	5	11
+joeljmiller	0.33333334	0.33333334	2014	10	5	11
+nakedpastor	0.27272728		2014	10	5	11
+paganportal	0.33333334		2014	10	5	11
+rogereolson	0.6		2014	10	5	11
+slacktivist	0.7058824		2014	10	5	11
+afewgrownmen	0.72727275		2014	10	5	11
+anxiousbench	1.0		2014	10	5	11
+deaconsbench	0.85714287		2014	10	5	11
+faithwalkers	0.45454547		2014	10	5	11
+markdroberts	0.75		2014	10	5	11
+theanchoress	0.5		2014	10	5	11
+adrianwarnock	0.11111111		2014	10	5	11
+btn-sm-bg.png	1.0		2014	10	5	11
+kathyschiffer	0.2		2014	10	5	11
+screen-ie.css	1.0		2014	10	5	11
+tfbuster.html	1.0		2014	10	5	11
+brotherrichard	0.9381373	0.002039429	2014	10	5	11
+gold-arrow.png	1.0		2014	10	5	11
+nadiabolzweber	0.4375		2014	10	5	11
+daylightatheism	0.75		2014	10	5	11
+friendlyatheist	0.8401937	0.0072639226	2014	10	5	11
+lovejoyfeminism	0.33333334		2014	10	5	11
+americanbuddhist	0.33333334		2014	10	5	11
+frenchrevolution	0.6666667		2014	10	5	11
+patheos-tabs.png	1.0		2014	10	5	11
+standingonmyhead	0.5555556		2014	10	5	11
+blogsToAdChannels	1.0		2014	10	5	11
+hdr-search-bg.png	1.0		2014	10	5	11
+heavenlycreatures	0.5		2014	10	5	11
+subscribe-btn.png	1.0		2014	10	5	11
+unreasonablefaith	0.65217394		2014	10	5	11
+wildgoosefestival	0.5		2014	10	5	11
+home-header-bg.png	1.0		2014	10	5	11
+christandpopculture	0.7586207		2014	10	5	11
+phoenixandolivebranch	1.0		2014	10	5	11

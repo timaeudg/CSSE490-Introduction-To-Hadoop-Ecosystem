@@ -1,0 +1,1 @@
+pig -param input=/user/root/DevonTimaeus/labs/lab5/testFile.txt -param output=/user/root/DevonTimaeus/labs/lab5/wordCountOutput/derka -param jar=./Lab5Pig-0.0.1-SNAPSHOT.jar -f WordCount.pig

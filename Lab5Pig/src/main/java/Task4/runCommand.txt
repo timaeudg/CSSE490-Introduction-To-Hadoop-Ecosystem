@@ -1,0 +1,1 @@
+pig -param input=/user/root/DevonTimaeus/labs/lab5/sample.gz -param output=/user/root/DevonTimaeus/labs/lab5/ -param jar=./Lab5Pig-0.0.1-SNAPSHOT.jar -f LogCounting.pig
