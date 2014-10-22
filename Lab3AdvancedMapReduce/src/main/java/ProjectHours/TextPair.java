@@ -38,13 +38,11 @@ public class TextPair implements WritableComparable<TextPair> {
 	
 	
 	public void readFields(DataInput in) throws IOException {
-		// TODO Auto-generated method stub
 		firstName.readFields(in);
 		lastName.readFields(in);
 	}
 
 	public void write(DataOutput out) throws IOException {
-		// TODO Auto-generated method stub
 		firstName.write(out);
 		lastName.write(out);
 	}

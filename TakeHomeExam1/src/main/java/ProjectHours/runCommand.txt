@@ -1,0 +1,1 @@
+hadoop jar TakeHomeExam1-0.0.1-SNAPSHOT.jar ProjectHours.JoinDriver /user/root/input/testInputDir/grades.txt /user/root/input/testInputDir/courses.txt /user/root/output/takeHomeOutput

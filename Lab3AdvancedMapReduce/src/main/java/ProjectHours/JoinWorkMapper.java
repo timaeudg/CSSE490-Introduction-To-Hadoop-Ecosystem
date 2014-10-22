@@ -18,8 +18,7 @@ public class JoinWorkMapper extends Mapper<LongWritable, Text, IntPair, Text> {
 		int sprint = Integer.parseInt(values[2]);
 		
 		IntPair pair = new IntPair(sprint, 100);
-		System.out.println("WorkMapper\nFirstValue: " + pair.getFirst().get() + "\nSecondValue: " + pair.getSecond().get());
-		System.out.println("WorkMapper\nTextValue: " + name);
+
 		context.write(pair, new Text(name));
 		} catch (Exception e) {
 			throw new IllegalArgumentException("Work Mapper had an exception");

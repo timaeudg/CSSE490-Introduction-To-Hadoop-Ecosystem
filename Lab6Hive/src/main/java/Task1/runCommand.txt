@@ -1,0 +1,1 @@
+ hive -hiveconf databaseName=taskOne -hiveconf tableName=basicTable -hiveconf inputLocation=/user/root/DevonTimaeus/labs/lab6/employeeInput/tempInput.txt -f tempCalcs.hql

@@ -1,0 +1,2 @@
+hadoop fs -put ./Lab6HiveTask2.jar /user/root
+ hive -hiveconf databaseName=lab6timaeudg -hiveconf tableName=task2 -hiveconf inputLocation=/user/root/DevonTimaeus/labs/lab6/employeeInput/testFile.txt -f wordCount.hql

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Lab2Serialization.iml" filepath="$PROJECT_DIR$/Lab2Serialization.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Lab3AdvancedMapReduce/Lab3AdvancedMapReduce.iml" filepath="$PROJECT_DIR$/../Lab3AdvancedMapReduce/Lab3AdvancedMapReduce.iml" />
+    </modules>
+  </component>
+</project>
+

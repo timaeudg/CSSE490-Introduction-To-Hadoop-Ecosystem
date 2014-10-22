@@ -1,0 +1,1 @@
+hadoop jar Lab3AdvancedMapReduce-0.0.1-SNAPSHOT.jar ProjectHours.JoinDriver /user/root/input/joinDir/workDetails.txt /user/root/input/joinDir/sprintDetails.txt /user/root/output/joinOutput/

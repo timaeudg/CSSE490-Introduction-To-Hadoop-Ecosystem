@@ -1,0 +1,8 @@
+C:\Users\Icarus\Git\CSSE490-Introduction-To-Hadoop-Ecosystem\Lab2Serialization\src\main\resources\inputPoems\poem1.txt	This is a poem
+C:\Users\Icarus\Git\CSSE490-Introduction-To-Hadoop-Ecosystem\Lab2Serialization\src\main\resources\inputPoems\poem1.txt	I think that it is quite good
+C:\Users\Icarus\Git\CSSE490-Introduction-To-Hadoop-Ecosystem\Lab2Serialization\src\main\resources\inputPoems\poem1.txt	Potato Salad
+C:\Users\Icarus\Git\CSSE490-Introduction-To-Hadoop-Ecosystem\Lab2Serialization\src\main\resources\inputPoems\randomShit.txt	I DON'T WRITE POEMS
+C:\Users\Icarus\Git\CSSE490-Introduction-To-Hadoop-Ecosystem\Lab2Serialization\src\main\resources\inputPoems\randomShit.txt	FUCK YOU
+C:\Users\Icarus\Git\CSSE490-Introduction-To-Hadoop-Ecosystem\Lab2Serialization\src\main\resources\inputPoems\randomShit.txt	HAHAHAHA
+C:\Users\Icarus\Git\CSSE490-Introduction-To-Hadoop-Ecosystem\Lab2Serialization\src\main\resources\inputPoems\randomShit.txt	LOL
+C:\Users\Icarus\Git\CSSE490-Introduction-To-Hadoop-Ecosystem\Lab2Serialization\src\main\resources\inputPoems\randomShit.txt	HUE
