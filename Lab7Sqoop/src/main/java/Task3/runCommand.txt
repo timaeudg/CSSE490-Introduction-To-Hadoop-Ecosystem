@@ -1,0 +1,7 @@
+To run, just have both the conf file and the script in the same directory
+then just run the shell script like this:
+
+./run_flume_agent.sh
+
+The script intelligently detects the hostname of the node and then
+tells the conf which agent to run based on that.

@@ -1,0 +1,6 @@
+SELECT cno, grades 
+FROM (SELECT cno, COUNT(*) AS grades 
+      FROM examData 
+      WHERE grade!='D'
+      GROUP BY cno) AS counted 
+WHERE counted.grades>=2;

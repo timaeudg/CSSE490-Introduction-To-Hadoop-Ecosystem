@@ -1,0 +1,8 @@
+mkdir /tmp/timaeudg
+
+assuming the jar is on the current node & is in the current directory
+cp ./TakeHomeExam2.0.0.1.jar /tmp/timaeudg/
+
+next, just make sure that the run_flume_agent.sh is in the same directory as
+the conf file, and just run:
+./run_flume_agent.sh

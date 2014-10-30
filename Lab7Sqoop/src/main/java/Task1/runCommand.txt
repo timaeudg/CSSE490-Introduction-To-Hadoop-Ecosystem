@@ -1,0 +1,4 @@
+./task3timaeudg.sh 127.0.0.1
+
+OR YOU COULD RUN IT LIKE THIS
+./task3timaeudg.sh hadoop07.csse.rose-hulman.edu

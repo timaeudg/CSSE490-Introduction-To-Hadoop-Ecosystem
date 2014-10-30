@@ -1,0 +1,4 @@
+./task4timaeudg.sh 127.0.0.1
+
+OR YOU COULD RUN IT LIKE THIS
+./task4timaeudg.sh hadoop07.csse.rose-hulman.edu

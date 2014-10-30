@@ -1,0 +1,2 @@
+hive -hiveconf databaseName=exam -hiveconf tempTableName=tempTable -hiveconf tableName=examData -f hiveCreate.hql
+hive -hiveconf databaseName=exam -hiveconf tempTableName=tempTable -hiveconf tableName=examData -f hiveInsert.hql

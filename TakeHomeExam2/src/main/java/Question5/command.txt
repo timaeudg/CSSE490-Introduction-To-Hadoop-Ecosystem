@@ -1,0 +1,1 @@
+sqoop export --connect jdbc:mysql://hadoopXX.csse.rose-hulman.edu/databasename --username root --table examTable --export-dir /apps/hive/warehouse/exam --input-fields-terminated-by '\t' --hive-partition-key 'username' --hive-partition-value 'timaeudg'

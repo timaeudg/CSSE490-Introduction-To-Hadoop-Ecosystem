@@ -1,0 +1,3 @@
+hadoop fs -mkdir /tmp/Exams
+hadoop fs -put ./timaeudgUDF.jar /tmp/Exams/
+pig -param grades=/tmp/Exams/grades.txt -param courses=/tmp/Exams/courses.txt -param outputDir=/tmp/PigOutput/ -param username=timaeudgPls -f ./exam.pig
