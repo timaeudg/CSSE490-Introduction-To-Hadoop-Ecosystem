@@ -1,0 +1,22 @@
+
+<workflow-app name="timaeudgLab8Task1" xmlns="uri:oozie:workflow:0.4">
+    <start to="MapReduceFriendsList"/>
+    <action name="MapReduceFriendsList">
+        <java>
+            <job-tracker>${jobTracker}</job-tracker>
+            <name-node>${nameNode}</name-node>
+            <prepare>
+                  <delete path="${nameNode}/user/admin/DevonTimaeus/output/friendListOutput"/>
+            </prepare>
+            <main-class>FriendList.FriendList</main-class>
+            <arg>/user/admin/DevonTimaeus/input/friendListSample.txt</arg>
+            <arg>/user/admin/DevonTimaeus/output/friendListOutput</arg>
+        </java>
+        <ok to="end"/>
+        <error to="kill"/>
+    </action>
+    <kill name="kill">
+        <message>Action failed, error message[${wf:errorMessage(wf:lastErrorNode())}]</message>
+    </kill>
+    <end name="end"/>
+</workflow-app>

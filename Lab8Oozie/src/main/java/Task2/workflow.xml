@@ -1,0 +1,29 @@
+
+<workflow-app name="Lab8Task2Timaeudg" xmlns="uri:oozie:workflow:0.4">
+    <start to="hivestuff"/>
+    <action name="hivestuff">
+        <sqoop xmlns="uri:oozie:sqoop-action:0.2">
+            <job-tracker>${jobTracker}</job-tracker>
+            <name-node>${nameNode}</name-node>
+              <arg>export</arg>
+              <arg>--connect</arg>
+              <arg>jdbc:mysql://hadoop07.csse.rose-hulman.edu/timaeudgLab8</arg>
+              <arg>--username</arg>
+              <arg>root</arg>
+              <arg>--table</arg>
+              <arg>task2</arg>
+              <arg>--m</arg>
+              <arg>1</arg>
+              <arg>--export-dir</arg>
+              <arg>/apps/hive/warehouse/lab8task2timaeudg.db/realtable</arg>
+              <arg>--input-fields-terminated-by</arg>
+              <arg>\t</arg>
+        </sqoop>
+        <ok to="end"/>
+        <error to="kill"/>
+    </action>
+    <kill name="kill">
+        <message>Action failed, error message[${wf:errorMessage(wf:lastErrorNode())}]</message>
+    </kill>
+    <end name="end"/>
+</workflow-app>
